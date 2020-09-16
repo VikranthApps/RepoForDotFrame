@@ -1,0 +1,11 @@
+framework module DotFrameworkProject {
+  umbrella header "DotFrameworkProject.h"
+
+  export *
+  module * { export * }
+}
+
+module DotFrameworkProject.Swift {
+    header "DotFrameworkProject-Swift.h"
+    requires objc
+}
